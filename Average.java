@@ -1,5 +1,5 @@
 /**
- * Autor: Rebeca Garcia
+ * Autor: Rebeca Garcia Rodríguez
  * Matrícula: 14457
  * Fecha: 31-Enero-2025
  */
