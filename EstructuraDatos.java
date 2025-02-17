@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * Autor: Rebeca Garcia
  * Matrícula: 14457
@@ -20,7 +22,8 @@ public class EstructuraDatos {
         String fullName = userData.fullName("Rebeca", "Garcia");
         System.out.println(fullName);
 
-        
+
+       // StudentsGrades 
         StudentGrades objStudentsGrades = new StudentGrades();
         int partialGrade = objStudentsGrades.calculateFirstParcialGrade(85, 90);
         System.out.println("Calificacion del Parcial " + partialGrade);
@@ -30,5 +33,51 @@ public class EstructuraDatos {
 
         String resultFinal = objStudentsGrades.checkFailureByAbsences(64, 60);
         System.out.println(resultFinal);
+        
+
+
+        // TrianguleArea 
+        //Scanner objScanner = new Scanner(System.in);
+
+        //System.out.print("Ingrese la base del triangulo: ");
+        //double base = objScanner.nextDouble();
+
+        //System.out.print("Ingrese la altura del triangulo: ");
+        //double height = objScanner.nextDouble();
+
+        //TrianguleArea objTrianguleArea = new TrianguleArea();
+        //double area = objTrianguleArea.calculateArea(base, height);
+
+        //System.out.println("El area del triangulo es: " + area, "y altura" + height);
+
+        //System.out.printf("El area del triangulo es: %.4f y altura %.4f es", base, height, area);
+        //objScanner.close();
+
+
+
+        //CircleArea
+
+        //Scanner objScanner = new Scanner(System.in);
+
+        //System.out.print("Ingrese el radio del circulo: ");
+        //double radio = objScanner.nextDouble();
+
+
+        //CircleArea objCircleArea = new CircleArea();
+        //double area = objCircleArea.calculateArea(radio);
+
+        //System.out.printf("El area del Circulo es: %.2f ", area);
+        //objScanner.close();
+
+
+    
+
+        //MultidimensionalArrays
+        MultidimensionalArrays objMultidimensionalArrays = new MultidimensionalArrays();
+        objMultidimensionalArrays.printbidemensionalArray();
+
+
+
+
     }
 }
