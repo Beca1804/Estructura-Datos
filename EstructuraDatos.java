@@ -72,11 +72,13 @@ public class EstructuraDatos {
 
     
 
-        //MultidimensionalArrays
-        MultidimensionalArrays objMultidimensionalArrays = new MultidimensionalArrays();
-        objMultidimensionalArrays.printbidemensionalArray();
+    //MultidimensionalArrays
+    MultidimensionalArrays objMultidimensionalArrays = new MultidimensionalArrays();
+    objMultidimensionalArrays.printbidemensionalArray();
 
-
+    //ExerciseNumberType
+    ExerciseNumberType objnumbertype = new ExerciseNumberType();
+    objnumbertype.calculateNumberType();
 
 
     }
