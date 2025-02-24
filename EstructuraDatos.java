@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 
 /**
  * Autor: Rebeca Garcia
@@ -73,13 +73,32 @@ public class EstructuraDatos {
     
 
     //MultidimensionalArrays
-    MultidimensionalArrays objMultidimensionalArrays = new MultidimensionalArrays();
-    objMultidimensionalArrays.printbidemensionalArray();
+    //MultidimensionalArrays objMultidimensionalArrays = new MultidimensionalArrays();
+    //objMultidimensionalArrays.printbidemensionalArray();
 
     //ExerciseNumberType
     ExerciseNumberType objnumbertype = new ExerciseNumberType();
     objnumbertype.calculateNumberType();
 
 
+
+    //GradeCalculationPartial
+    GradeCalculationPartial objGradeCalculationPartial = new GradeCalculationPartial();
+    double grade = objGradeCalculationPartial.calculateParcialGrade(85, 90);
+    
+
+
+    //SalesWithDiscount
+    SalesWithDiscount objSalesWithDiscount = new SalesWithDiscount();
+    double total = objSalesWithDiscount.totalWithDiscount();
+    System.out.println("El total con el descuento incluido es " + total);
+
+
+
+
+
+    
+
     }
 }
+
