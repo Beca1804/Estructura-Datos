@@ -86,6 +86,7 @@ public class EstructuraDatos {
     GradeCalculationPartial objGradeCalculationPartial = new GradeCalculationPartial();
     double grade = objGradeCalculationPartial.calculateParcialGrade(85, 90);
     
+    
 
 
     //SalesWithDiscount

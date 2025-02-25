@@ -8,7 +8,7 @@
 // Clase que calcula la calificación parcial de un estudiante
 // Se calcula la calificación parcial de un estudiante con base en su calificación de examen y tareas   
 // Se calcula la calificación final de un estudiante con base en su calificación de examen y tareas
-// Se calcula si un estudiante aprobó o reprobó con base en su calificación final y el porcentaje de asistencias
+
 
 
 import java.util.Scanner;
