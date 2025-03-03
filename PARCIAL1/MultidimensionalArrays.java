@@ -1,3 +1,4 @@
+package PARCIAL1;
 public class MultidimensionalArrays {
 
       public void printbidemensionalArray() {

@@ -1,3 +1,4 @@
+package PARCIAL1;
 /**
  * Autor: Rebeca Garcia Rodríguez
  * Matrícula: 14457

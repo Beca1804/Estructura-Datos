@@ -1,3 +1,4 @@
+package PARCIAL1;
 /**
  * Autor: Rebeca Garcia Rodríguez
  * Matrícula: 14457
@@ -16,13 +17,17 @@ import java.util.Scanner;
 public class GradeCalculationPartial {
     public double calculateParcialGrade(int examScore, int homeworkScore) {
         Scanner num = new Scanner(System.in);
-       
+       //crea el objeto num de la clase Scanner
         System.out.println("Ponga su calificacion del examen: ");
         double gradeexam1 = num.nextDouble();
+      // pone el mensaje y lee el num decimal, y lo guarda en gradeexam1
         System.out.println("Ponga su calificacion de tareas: ");
         double gradetask = num.nextDouble();
+//vuelve a imprimir unmensaje , lee el decimal y lo guarda en gradetask
         double finalgrade = ((gradeexam1 * 0.7) + (gradetask * 0.3));
         System.out.println("Tu Calificacion final es: " + finalgrade);
-        return (double) finalgrade;
+        //imprime el mensaje y el resultado de la operacion
+        return (double) finalgrade; //devulve la calificacion final
     }
 }
+
