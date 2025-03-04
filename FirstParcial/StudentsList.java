@@ -1,4 +1,4 @@
-package PARCIAL1;
+package FirstParcial;
 
  // Autor: Rebeca Garcia
  // Matrícula: 14457

@@ -1,4 +1,4 @@
-package PARCIAL1;
+package FirstParcial;
 
 /**
  * Autor: Rebeca Garcia
@@ -85,7 +85,7 @@ public class EstructuraDatos {
     //GradeCalculationPartial
     GradeCalculationPartial objGradeCalculationPartial = new GradeCalculationPartial();
     double grade = objGradeCalculationPartial.calculateParcialGrade(85, 90);
-    
+    System.out.println("La calificación parcial es " + grade);
     
 
 
