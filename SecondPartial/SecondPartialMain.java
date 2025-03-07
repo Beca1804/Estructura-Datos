@@ -2,7 +2,7 @@ package SecondPartial;
 /**
  * Autor: Rebeca Garcia Rodríguez
  * Matrícula: 14457
- * Fecha: 18-Febrero-2025
+ * Fecha: 06-Marzo-2025
  */
 
  public class SecondParcialMain {
