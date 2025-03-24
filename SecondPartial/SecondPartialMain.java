@@ -5,9 +5,9 @@ package SecondPartial;
  * Fecha: 06-Marzo-2025
  */
 
- public class SecondParcialMain {
+ public class SecondPartialMain {
      public static void main(String args[]) {
-         int peorCaso[] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1}; //creo un arreglo de enteros llamado peorCaso
+         int peorCaso[] = {5,4,3,2,1}; //creo un arreglo de enteros llamado peorCaso
  
          //Insertion Sort
          System.out.println("Peor Caso");
@@ -15,7 +15,7 @@ package SecondPartial;
          for (int num : peorCaso) {
              System.out.print(num + " ");
          }
-         System.out.println("\nOperaciones realizadas: " + operacionesPeor);
+         System.out.println("\nTotal de comparaciones: " + operacionesPeor);
  
          //Selection Sort
          System.out.println("Peor Caso");
@@ -32,7 +32,12 @@ package SecondPartial;
             System.out.print(num + " ");
         }
          System.out.println("\nTotal de Comparaciones " + bubbleWorstComparisons);
- 
+
+
+         
+    int number = LinealSearch.seacrhNumber(5); //Llamo al metodo seacrhNumber de la clase Example
+    System.out.println("El numero se encuentra en la posicion: " + number); //Imprimo el resultado
+    
      }
  }
  
