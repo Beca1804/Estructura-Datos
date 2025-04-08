@@ -37,7 +37,9 @@ package SecondPartial;
          
     int number = LinealSearch.seacrhNumber(5); //Llamo al metodo seacrhNumber de la clase Example
     System.out.println("El numero se encuentra en la posicion: " + number); //Imprimo el resultado
-    
+
+
+   
      }
  }
  

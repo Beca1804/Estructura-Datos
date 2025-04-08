@@ -11,7 +11,6 @@ public class IndexedSearch {
         
         // Búsqueda en el índice
         for (int i = 0; i < indices.length - 1; i++) {
-            comparaciones++;
             if (datos[indices[i]] <= buscar && datos[indices[i + 1]] >= buscar) {
                 bloque = i;
                 break;
