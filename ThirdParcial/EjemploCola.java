@@ -1,3 +1,8 @@
+/**
+ * Autor: Rebeca Garcia Rodríguez
+ * Matrícula: 14457
+ * Fecha: 10-Abril-2025
+ */
 package ThirdParcial;
 
 import java.util.LinkedList;
